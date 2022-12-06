@@ -17,7 +17,7 @@ I wonder how the game was made when I was a kid, and never lose the tempt to cre
 
 This is the biggest endeavour I've made as an "indie" so far. I design the game from ground up using Apple's 2D game engine [SpriteKit](https://developer.apple.com/spritekit/). Every element in the game including level design, sprites and animation, FX, coding, AI... are all created by myself. The only exception is audio, I purchase the level theme songs from [melody loops](https://www.melodyloops.com/), as I really don't think I can compose a satisfactory theme song on my own 😆
 
-demo 🎬 https://youtube.com/shorts/w9o-ijtwV38
+🎬 [Demo](https://youtube.com/shorts/w9o-ijtwV38)
 
 ## Motivation
 
