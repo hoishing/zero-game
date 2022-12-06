@@ -1,6 +1,10 @@
-# Zero - Strategy Game
+# ZERO
 
-[![GitHub](https://img.shields.io/github/license/hoishing/zero-game)](https://opensource.org/licenses/MIT)
+![swift-badge] ![platform-badge] ![MIT-badge]
+
+> A Classic Turn-based Strategy Game
+
+📲 Download from [app store]
 
 <table id="img-tb">
 <tr>
@@ -9,15 +13,18 @@
 </tr>
 </table>
 
-📲 Download from [app store](https://apps.apple.com/hk/app/zero-tbs/id1399856976)
-
 Zero is a turn-based-strategy inspired by my favorite game [Sangokushi Sōsōden (三國志曹操伝)](https://en.wikipedia.org/wiki/Sangokushi_S%C5%8Ds%C5%8Dden).
 
 I wonder how the game was made when I was a kid, and never lose the tempt to create something like that after being an app developer. After developing utility apps for years, I think I'm ready to ful-fill this little dream deep in my heart.
 
 This is the biggest endeavour I've made as an "indie" so far. I design the game from ground up using Apple's 2D game engine [SpriteKit](https://developer.apple.com/spritekit/). Every element in the game including level design, sprites and animation, FX, coding, AI... are all created by myself. The only exception is audio, I purchase the level theme songs from [melody loops](https://www.melodyloops.com/), as I really don't think I can compose a satisfactory theme song on my own 😆
 
-demo 🎬 https://youtube.com/shorts/w9o-ijtwV38
+🎬 [Demo](https://youtube.com/shorts/w9o-ijtwV38)
+
+[MIT-badge]: https://img.shields.io/github/license/hoishing/zero-game
+[platform-badge]: https://img.shields.io/badge/platform-iOS%20%7C%20macOS-blue
+[app store]: https://apps.apple.com/hk/app/zero-tbs/id1399856976
+[swift-badge]: https://img.shields.io/badge/swift-%3E%3D5.0-orange
 
 ## Motivation
 
@@ -83,4 +90,8 @@ Using Xcode built-in particle emitter, with sprite atlas putting in `xcassets` f
 
 ## Questions?
 
-Open a [github issue](https://github.com/hoishing/zero-game/issues) or ping me on [Twitter](https://twitter.com/hoishing) ![](https://api.iconify.design/logos/twitter.svg?width=20)
+Open a [github issue] or ping me on [Twitter ![twitter-icon]][Twitter]
+
+[github issue]: https://github.com/hoishing/zero-game/issues
+[Twitter]: https://twitter.com/intent/tweet?text=https://github.com/hoishing/zero-game/%20%0D@hoishing
+[twitter-icon]: https://api.iconify.design/logos/twitter.svg?width=20
