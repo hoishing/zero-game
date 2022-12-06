@@ -1,10 +1,13 @@
 # Zero - Strategy Game
 
-[![GitHub](https://img.shields.io/github/license/hoishing/zero-game)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/license/hoishing/hoishing)](https://opensource.org/licenses/MIT)
 
-<img src="https://i.imgur.com/KDSdi7q.jpg" width="350" />
-<span> </span>
-<img src="https://i.imgur.com/eVXs5ZL.jpg" width="350" />
+<table id="img-tb">
+<tr>
+<td><img src="https://i.imgur.com/KDSdi7q.jpg" width="350" /></td>
+<td><img src="https://i.imgur.com/eVXs5ZL.jpg" width="350" /></td>
+</tr>
+</table>
 
 Download from [app store](https://apps.apple.com/hk/app/zero-tbs/id1399856976)
 
@@ -14,7 +17,7 @@ I wonder how the game was made when I was a kid, and never lose the tempt to cre
 
 This is the biggest endeavour I've made as an "indie" so far. I design the game from ground up using Apple's 2D game engine [SpriteKit](https://developer.apple.com/spritekit/). Every element in the game including level design, sprites and animation, FX, coding, AI... are all created by myself. The only exception is audio, I purchase the level theme songs from [melody loops](https://www.melodyloops.com/), as I really don't think I can compose a satisfactory theme song on my own 😆
 
-🎬 https://youtube.com/shorts/w9o-ijtwV38
+demo 🎬 https://youtube.com/shorts/w9o-ijtwV38
 
 ## Motivation
 
@@ -78,6 +81,6 @@ All graphic assets are designed with [Affinity Designer](https://affinity.serif.
 
 Using Xcode built-in particle emitter, with sprite atlas putting in `xcassets` file. The particle system in Xcode is quite primitive comparing with other dedicated particle tools. So the FX can be created are indeed quite limited. However, the FX required by this game is relatively simple, that make it a cost-effective choice.
 
-## Wanna know more?
+## Questions?
 
-Ping me on [Twitter](https://twitter.com/hoishing) <img src="https://api.iconify.design/logos/twitter.svg?height=20" style={{'vertical-align': '-0.25rem'}} />
+Open a [github issue](https://github.com/hoishing/zero-game/issues) or ping me on [Twitter](https://twitter.com/hoishing) ![](https://api.iconify.design/logos/twitter.svg?width=20)
