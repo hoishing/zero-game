@@ -1,6 +1,6 @@
 # Zero - Strategy Game
 
-[![GitHub](https://img.shields.io/github/license/hoishing/hoishing)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/github/license/hoishing/zero-game)](https://opensource.org/licenses/MIT)
 
 <table id="img-tb">
 <tr>
@@ -9,7 +9,7 @@
 </tr>
 </table>
 
-Download from [app store](https://apps.apple.com/hk/app/zero-tbs/id1399856976)
+📲 Download from [app store](https://apps.apple.com/hk/app/zero-tbs/id1399856976)
 
 Zero is a turn-based-strategy inspired by my favorite game [Sangokushi Sōsōden (三國志曹操伝)](https://en.wikipedia.org/wiki/Sangokushi_S%C5%8Ds%C5%8Dden).
 
@@ -66,8 +66,8 @@ I use Xcode built-in scene editor to create each level. It's fast and easy compa
 
 ### Audio
 
-- Sound FX: pick from https://freesound.org
-- level theme songs: purchase from [melody loops](https://www.melodyloops.com/). They are not shared in this repo due to license limitation.
+- Sound FX: download from https://freesound.org
+- Level theme songs: purchase from [Melody Loops](https://www.melodyloops.com/). They are not shared in this repo due to license limitation.
 
 ### Graphics
 
