@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash1" translatesAutoresizingMaskIntoConstraints="NO" id="IZw-6x-TBc">
+                                <rect key="frame" x="94" y="240" width="188" height="188"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="IZw-6x-TBc" secondAttribute="height" multiplier="1:1" id="Rnf-IL-D0r"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBf-LF-QYZ">
+                                <rect key="frame" x="153" y="407" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.59611002604166663" green="0.23792263315651022" blue="0.23750283526169366" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IZw-6x-TBc" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" priority="750" id="5n6-sH-IXd"/>
+                            <constraint firstItem="IZw-6x-TBc" firstAttribute="bottom" secondItem="xBf-LF-QYZ" secondAttribute="bottom" id="BlY-q4-Dg7"/>
+                            <constraint firstItem="IZw-6x-TBc" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KcA-0I-dN0"/>
+                            <constraint firstItem="xBf-LF-QYZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="pKF-vF-1pd"/>
+                            <constraint firstItem="IZw-6x-TBc" firstAttribute="width" relation="lessThanOrEqual" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.5" id="pUY-eJ-gv8"/>
+                            <constraint firstItem="IZw-6x-TBc" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wg0-9A-CgJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash1" width="1024" height="1024"/>
+    </resources>
+</document>
